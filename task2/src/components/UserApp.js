@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import UserProfile from './UserProfile';
-// Родительский компонент для управления пользователями
 function UserApp() {
   const [selectedUserId, setSelectedUserId] = useState(1);
   return (
